@@ -1,18 +1,19 @@
 name: flutter_chrome_extension
-description: Flutter Web Chrome Extension Project.
-# Developed By Hossein Yousefpour
-# https://gabrimatic.info
+description: Manifest V3 Chrome extension popup built with Flutter Web.
+repository: https://github.com/gabrimatic/flutter_chrome_extension
+issue_tracker: https://github.com/gabrimatic/flutter_chrome_extension/issues
 
 publish_to: 'none'
 
-
-version: 1.0.0+1
+version: 1.1.0+2
 
 environment:
-  sdk: ">=2.17.6 <3.0.0"
+  sdk: ^3.9.0
+  flutter: ">=3.35.0"
 
 
 dependencies:
+  cupertino_icons: ^1.0.9
   flutter:
     sdk: flutter
 
@@ -21,7 +22,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^2.0.0
+  flutter_lints: ^6.0.0
 
 flutter:
   uses-material-design: true
